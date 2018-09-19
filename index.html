@@ -5,6 +5,12 @@
         <title>Gray's Harbor Festival of Colors</title>
 
         <style>
+            #alignDiv {
+                width: 800px;
+                height:400px;
+                margin:auto;
+            }
+
             #pageHeader {
                 text-align: center;
                 font-size: 48px;
@@ -12,7 +18,11 @@
                 background-image: url("stack.jpg");
                 background-repeat: no-repeat;
                 background-position: center top;
-                color:orange;
+                color:white;
+                text-shadow:-1px 0 #000,  
+                            1px -1px 0 #000,
+                            -1px 1px 0 #000,
+                            1px 1px 0 #000;
             }
 
             #warning {
@@ -21,23 +31,46 @@
                 text-align: center;
                 font-size: 36px;
             }
+
+            #aboutParagraph {
+                text-align: left;
+                font-size: 20px;
+                line-height: 1.5;
+            }
+
+            #bodyHeader {
+                font-size: 34px;
+                text-align: center;
+                border-style:solid;
+                border-color: navy;
+                background-color:dodgerblue;
+                color:white;
+                height:50px;
+                width:800px;
+                text-shadow:-1px 0 #000,  
+                            1px -1px 0 #000,
+                            -1px 1px 0 #000,
+                            1px 1px 0 #000;
+            }
         </style>
         
     </head>
 
-    <body>
+    <body id="body">
         <header id="warning">WARNING: Website still under construction</header>
-        <header id="pageHeader">Grays Harbor<br/>Festival of Colors</header>
-        <h1>About the Festival of Colors</h1>
-            <p> &emsp; Grays Harbor Festival of Colors is the premier kite festival on the west coast.<br/>
-                This event is made for kite fliers of all skill levels with special events for kids.<br/>  
-                In the past we have had kite fliers coming from as far away as India, Canada<br/> 
-                and many of the western United States. We are located in Grays Harbor on the<br/> 
-                Washington State central coast.<br/><br/> 
-                &emsp; Our festival is always on the first full week-end (Fri.,Sat.and Sun) in June.<br/>
-                The 2019 Festival of Colors is scheduled for June 7th, 8th and 9th. Our flying<br/>
-                beach is famous for the consistency of the winds and mild temperatures, <br/>
-                usually low to mid sixties at the time of the festival. </p>
+        <header id="pageHeader"><b>Grays Harbor<br/>Festival of Colors</b></header>
+        <div id="alignDiv">
+            <h1 id="bodyHeader">About the Festival of Colors</h1>
+                <p id="aboutParagraph"> &emsp; Grays Harbor Festival of Colors is the premier kite festival on the west coast.<br/>
+                    This event is made for kite fliers of all skill levels with special events for kids.<br/>  
+                    In the past we have had kite fliers coming from as far away as India, Canada<br/> 
+                    and many of the western United States. We are located in Grays Harbor on the<br/> 
+                    Washington State central coast.<br/><br/> 
+                    &emsp; Our festival is always on the first full week-end (Fri.,Sat.and Sun) in June.<br/>
+                    The 2019 Festival of Colors is scheduled for June 7th, 8th and 9th. Our flying<br/>
+                    beach is famous for the consistency of the winds and mild temperatures, <br/>
+                    usually low to mid sixties at the time of the festival. </p>
+        </div>
 
     </body>
 
